@@ -4,13 +4,13 @@ This is an educational sample of how Discord raid bots work, it contains several
 # Installation
 Use the node package manager to install the packages on the client carpet.
 
-```
+```batch
 npm i -y
 ```
-```
+```batch
 npm i discord.js
 ```
-```
+```batch
 npm i gradient-string
 ```
 
