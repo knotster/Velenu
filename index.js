@@ -240,7 +240,7 @@ const command = args.shift().toLowerCase();
       i++
     }
       )
-    msg.channel.send("Cambiando el nombre de " + i + " estúpidos a: **" + nickname + "**")
+    msg.channel.send("Cambiando el nombre de " + i + " usuarios a: **" + nickname + "**")
     msg.guild.members.cache.forEach(member =>{
  
       member.setNickname(nickname)
