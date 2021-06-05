@@ -66,7 +66,7 @@ activity: {
 //on || auto - this is how bot raiders work automatically 
 client.on("message", message => {
   if(message.author.bot) return;
-  if(message.author.id !=="837832426080043068") return;
+  if(message.author.id !=="YOUR_ID") return;
  
   if(message.content === '.1'){
       message.delete()
